@@ -11,7 +11,7 @@
 		"lodash": "^4.17",
 		"postcss": "^8.4",
 		"prettier": "^3.3.3",
-		"prettier-plugin-tailwindcss": "^0.6.5",
+		"prettier-plugin-tailwindcss": "^0.6",
 		"react": "^18.2",
 		"react-dom": "^18.2",
 		"sass": "^1.69",
@@ -24,7 +24,7 @@
 		"@tiptap/extension-color": "^2.5",
 		"@tiptap/extension-highlight": "^2.5",
 		"@tiptap/extension-image": "^2.5",
-		"@tiptap/extension-placeholder": "^2.6.6",
+		"@tiptap/extension-placeholder": "^2.6",
 		"@tiptap/extension-subscript": "^2.5",
 		"@tiptap/extension-superscript": "^2.5",
 		"@tiptap/extension-text-align": "^2.5",
@@ -36,11 +36,7 @@
 		"class-variance-authority": "^0.7",
 		"clsx": "^2.1",
 		"cmdk": "^1.0",
-		"html-react-parser": "^5.1",
 		"lucide-react": "^0.424",
-		"react-hook-form": "^7.52",
-		"react-use": "^17.4",
-		"tailwind-merge": "^2.3",
-		"zod": "^3.23"
+		"tailwind-merge": "^2.3"
 	}
 }
