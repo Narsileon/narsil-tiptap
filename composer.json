@@ -1,0 +1,90 @@
+{
+	"name": "narsil/tiptap",
+	"description": "Narsil TipTap",
+	"license": "MIT",
+	"keywords": [
+		"inertia",
+		"laravel",
+		"narsil",
+		"php",
+		"react",
+		"tiptap"
+	],
+	"authors": [
+		{
+			"name": "Jonathan Rigaux"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-auth.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-forms.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-localization.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-menus.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-policies.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-settings.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-storage.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-tables.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-tree.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:Narsileon/narsil-ui.git"
+		}
+	],
+	"require": {
+		"php": "^8.2",
+		"inertiajs/inertia-laravel": "^1.3",
+		"laravel/framework": "^11.3",
+		"narsil/localization": "dev-main",
+		"narsil/ui": "dev-main",
+		"tightenco/ziggy": "^2.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^11.0"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Narsil\\TipTap\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Narsil\\TipTap\\NarsilTipTapServiceProvider"
+			]
+		}
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"preferred-install": "dist",
+		"sort-packages": true
+	}
+}
